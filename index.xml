@@ -6,10 +6,19 @@
     <description>Recent content on 一只猫的后花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 11 Sep 2019 10:43:56 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Sep 2019 22:23:13 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何用hugo搭建博客</title>
+      <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 11 Sep 2019 22:23:13 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;p&gt;Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，如何用Hugo搭建一个个人博客呢？&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>咱的第一篇hugo博客</title>

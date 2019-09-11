@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>一只猫的后花园  | 如何用hugo搭建博客</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="如何用hugo搭建博客" />
+<meta property="og:description" content="Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，如何用Hugo搭建一个个人博客呢？" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
+<meta property="article:published_time" content="2019-09-11T22:23:13+08:00" />
+<meta property="article:modified_time" content="2019-09-11T22:23:13+08:00" />
+<meta itemprop="name" content="如何用hugo搭建博客">
+<meta itemprop="description" content="Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，如何用Hugo搭建一个个人博客呢？">
+
+
+<meta itemprop="datePublished" content="2019-09-11T22:23:13&#43;08:00" />
+<meta itemprop="dateModified" content="2019-09-11T22:23:13&#43;08:00" />
+<meta itemprop="wordCount" content="45">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="如何用hugo搭建博客"/>
+<meta name="twitter:description" content="Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，如何用Hugo搭建一个个人博客呢？"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      一只猫的后花园
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">如何用hugo搭建博客</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-09-11T22:23:13&#43;08:00">September 11, 2019</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，如何用Hugo搭建一个个人博客呢？</p>
+
+<h4 id="第一步-安装hugo-仅针对winodws用户">第一步：安装Hugo（仅针对Winodws用户）</h4>
+
+<ul>
+<li>在<a href="https://github.com/gohugoio/hugo/releases">Hugo下载页面</a>下载Hugo压缩包，并且解压到合适位置</li>
+<li>配置环境变量，在Path中加入Hugo的位置 <img src="/image/img1.png" alt="配置环境变量" /></li>
+
+<li><p>使用以下命令来检测hugo是否安装成功</p>
+
+<pre><code>hugo version
+</code></pre>
+
+<h4 id="第二步-创建博客生成器">第二步： 创建博客生成器</h4></li>
+
+<li><p>在一个合适的位置放置博客生成器，使用以下命令</p>
+
+<pre><code>hugo new site quickstart
+</code></pre></li>
+
+<li><p>biu~是不是很快就生成好了呢，这就是hugo的特点，非常的快</p>
+
+<h4 id="第三步-添加一个主题">第三步： 添加一个主题</h4></li>
+
+<li><p>一个好看的博客怎么能少了好看的主题呢，我们使用官方推荐的Ananke主题</p>
+
+<pre><code>git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+</code></pre>
+
+<h4 id="第四步-写一篇文章吧">第四步： 写一篇文章吧</h4></li>
+
+<li><p>让我们开始写文章吧</p>
+
+<pre><code>hugo new posts/my-first-post.md
+</code></pre>
+
+<p>-你可以在posts文件夹中找到它，使用maekdown语法编辑就可以了,记得把draft改成false，因为你不是在写草稿</p>
+
+<h4 id="第五步-运行服务">第五步： 运行服务</h4></li>
+
+<li><p>万事俱备，让我们开始运行吧</p>
+
+<pre><code>hugo server -D
+</code></pre></li>
+
+<li><p>现在你可以在<a href="http://localhost:1313/">http://localhost:1313/</a>中预览你的博客了</p></li>
+</ul><ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2019 一只猫的后花园
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
