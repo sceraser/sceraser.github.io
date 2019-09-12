@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Jane - A super concise theme for Hugo</title>
+    <title>Posts on 一只猫的后花园</title>
     <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on Jane - A super concise theme for Hugo</description>
+    <description>Recent content in Posts on 一只猫的后花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 12 Sep 2019 15:21:31 +0800</lastBuildDate>
@@ -36,16 +36,16 @@
     </item>
     
     <item>
-      <title>java面向对象编程</title>
+      <title>Java面向对象编程</title>
       <link>http://localhost:1313/post/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/post/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/</guid>
-      <description>&lt;h3 id=&#34;java面向对象编程&#34;&gt;java面向对象编程&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;java面向对象编程&#34;&gt;Java面向对象编程&lt;/h3&gt;
 
 &lt;h4 id=&#34;前言&#34;&gt;前言&lt;/h4&gt;
 
-&lt;p&gt;java语言提供类、接口和继承等面向对象的特性，为了简单起见，只支持类之间的单继承，但支持接口之间的多继承，并支持类与接口之间的实现机制（关键字为implements）。Java语言全面支持动态绑定，而C++语言只对虚函数使用动态绑定。总之，Java语言是一个纯的面向对象程序设计语言。&lt;/p&gt;</description>
+&lt;p&gt;Java语言提供类、接口和继承等面向对象的特性，为了简单起见，只支持类之间的单继承，但支持接口之间的多继承，并支持类与接口之间的实现机制（关键字为implements）。Java语言全面支持动态绑定，而C++语言只对虚函数使用动态绑定。总之，Java语言是一个纯的面向对象程序设计语言。&lt;/p&gt;</description>
     </item>
     
   </channel>
