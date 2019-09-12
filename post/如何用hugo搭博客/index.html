@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Jane - A super concise theme for Hugo</title>
+  <title>如何用Hugo搭博客 - Jane - A super concise theme for Hugo</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="喵喵哲" />
-  <meta name="description" content="Hugo theme jane example site." />
+  <meta name="description" content="Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，" />
+
   <meta name="keywords" content="Hugo, theme, jane" />
 
 
@@ -34,8 +35,7 @@
 <meta name="generator" content="Hugo 0.58.1" />
 
 
-<link rel="canonical" href="http://localhost:1313/" />
-<link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/index.xml%20http://localhost:1313/index.xml%7d" rel="alternate" type="application/rss+xml" title="Jane - A super concise theme for Hugo" />
+<link rel="canonical" href="http://localhost:1313/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%8D%9A%E5%AE%A2/" />
 
 
 
@@ -57,18 +57,26 @@
 
 
 
-<meta property="og:title" content="Jane - A super concise theme for Hugo" />
-<meta property="og:description" content="Hugo theme jane example site." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/" />
+<meta property="og:title" content="如何用Hugo搭博客" />
+<meta property="og:description" content="Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%8D%9A%E5%AE%A2/" />
+<meta property="article:published_time" content="2019-09-12T15:21:31+08:00" />
+<meta property="article:modified_time" content="2019-09-12T15:21:31+08:00" />
+<meta itemprop="name" content="如何用Hugo搭博客">
+<meta itemprop="description" content="Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，">
 
-<meta property="og:updated_time" content="2019-09-12T15:21:31+08:00" />
-<meta itemprop="name" content="Jane - A super concise theme for Hugo">
-<meta itemprop="description" content="Hugo theme jane example site.">
 
+<meta itemprop="datePublished" content="2019-09-12T15:21:31&#43;08:00" />
+<meta itemprop="dateModified" content="2019-09-12T15:21:31&#43;08:00" />
+<meta itemprop="wordCount" content="452">
+
+
+
+<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Jane - A super concise theme for Hugo"/>
-<meta name="twitter:description" content="Hugo theme jane example site."/>
+<meta name="twitter:title" content="如何用Hugo搭博客"/>
+<meta name="twitter:description" content="Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -228,7 +236,7 @@
   <ul id="menu" class="menu">
     
     
-        <li class="menu-item active">
+        <li class="menu-item">
         
           
           
@@ -309,151 +317,168 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-<section id="posts" class="posts">
-  
-  
+          <article class="post bg-white">
     
-  
-  
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
+    <header class="post-header">
+      <h1 class="post-title">如何用Hugo搭博客</h1>
       
-        <span class="post-pinned">
-          <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
-  width="32" height="32">
-  <path d="M682.666667 512V170.666667h42.666666V85.333333H298.666667v85.333334h42.666666v341.333333l-85.333333 85.333333v85.333334h221.866667v256h68.266666v-256H768v-85.333334l-85.333333-85.333333z"></path>
+      <div class="post-meta">
+        <time datetime="2019-09-12" class="post-time">
+          2019-09-12
+        </time>
+        
+        
+
+        
+        
+
+        
+        
+      </div>
+    </header>
+
+    
+    
+
+    
+    <div class="post-content">
+      
+
+<p>Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，如何用Hugo搭建一个个人博客呢？</p>
+
+<h4 id="第一步-安装hugo-仅针对winodws用户">第一步：安装Hugo（仅针对Winodws用户）</h4>
+
+<ul>
+<li>在<a href="https://github.com/gohugoio/hugo/releases">Hugo下载页面</a>下载Hugo压缩包，并且解压到合适位置</li>
+<li>配置环境变量，在Path中加入Hugo的位置
+<img src="/image/img1.png" alt="" /></li>
+
+<li><p>使用以下命令来检测hugo是否安装成功</p>
+
+<pre><code>hugo version
+</code></pre>
+
+<h4 id="第二步-创建博客生成器">第二步： 创建博客生成器</h4></li>
+
+<li><p>在一个合适的位置放置博客生成器，使用以下命令</p>
+
+<pre><code>hugo new site quickstart
+</code></pre></li>
+
+<li><p>biu~是不是很快就生成好了呢，这就是hugo的特点，非常的快</p>
+
+<h4 id="第三步-添加一个主题">第三步： 添加一个主题</h4></li>
+
+<li><p>一个好看的博客怎么能少了好看的主题呢，我们使用官方推荐的Ananke主题</p>
+
+<pre><code>git init
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+</code></pre>
+
+<h4 id="第四步-写一篇文章吧">第四步： 写一篇文章吧</h4></li>
+
+<li><p>让我们开始写文章吧</p>
+
+<pre><code>hugo new posts/my-first-post.md
+</code></pre></li>
+
+<li><p>你可以在posts文件夹中找到它，使用maekdown语法编辑就可以了,记得把draft改成false，因为你不是在写草稿</p>
+
+<h4 id="第五步-运行服务">第五步： 运行服务</h4></li>
+
+<li><p>万事俱备，让我们开始运行吧</p>
+
+<pre><code>hugo server -D
+</code></pre></li>
+
+<li><p>现在你可以在<a href="http://localhost:1313/中预览你的博客了">http://localhost:1313/中预览你的博客了</a></p></li>
+</ul>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">喵喵哲</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2019-09-12
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+
+    
+    
+
+    <footer class="post-footer">
+      
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E5%B9%B4hugo%E5%8D%9A%E5%AE%A2/">
+            
+            <i class="iconfont">
+              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
 </svg>
 
-        </span>
-      
-      <a class="post-link" href="/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E5%B9%B4hugo%E5%8D%9A%E5%AE%A2/">咱的第一篇Hugo博客</a>
-    </h1>
+            </i>
+            <span class="prev-text nav-default">咱的第一篇Hugo博客</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/post/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/">
+            <span class="next-text nav-default">java面向对象编程</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
     
-    <div class="post-meta">
-      <time datetime="2019-09-09" class="post-time">
-        2019-09-09
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <h1 id="你们好呀">你们好呀</h1>
-
-<p>这里曾经是一只家猫的后花园，现在住着一只非常非常努力的小野猫</p>
-
-<p>他要学的东西有很多，包括代码外的许多东西，不努力的话，会被丢掉的</p>
-
-<h4 id="点击右下角的阅读全文可以看到家猫曾经的足迹-真的很羡慕那时候的猫猫呢">点击右下角的阅读全文可以看到家猫曾经的足迹，真的很羡慕那时候的猫猫呢</h4>
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E5%B9%B4hugo%E5%8D%9A%E5%AE%A2/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
 
   
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%8D%9A%E5%AE%A2/">如何用Hugo搭博客</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2019-09-12" class="post-time">
-        2019-09-12
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%8D%9A%E5%AE%A2/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/">java面向对象编程</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2018-10-01" class="post-time">
-        2018-10-01
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <h3 id="java面向对象编程">java面向对象编程</h3>
-
-<h4 id="前言">前言</h4>
-
-<p>java语言提供类、接口和继承等面向对象的特性，为了简单起见，只支持类之间的单继承，但支持接口之间的多继承，并支持类与接口之间的实现机制（关键字为implements）。Java语言全面支持动态绑定，而C++语言只对虚函数使用动态绑定。总之，Java语言是一个纯的面向对象程序设计语言。</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-</section>
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-
-
-
 
         </div>
       </div>

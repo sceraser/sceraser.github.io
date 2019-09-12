@@ -1,38 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>一只猫的后花园</title>
-    <link>http://example.org/</link>
-    <description>Recent content on 一只猫的后花园</description>
+    <title>Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
-    <lastBuildDate>Wed, 11 Sep 2019 22:23:13 +0800</lastBuildDate>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Sep 2019 15:21:31 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>如何用hugo搭建博客</title>
-      <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Wed, 11 Sep 2019 22:23:13 +0800</pubDate>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>&lt;p&gt;Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，如何用Hugo搭建一个个人博客呢？&lt;/p&gt;</description>
+      <guid>http://localhost:1313/about/</guid>
+      
+        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
     </item>
     
     <item>
-      <title>咱的第一篇hugo博客</title>
-      <link>http://example.org/posts/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hugo%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Wed, 11 Sep 2019 10:43:56 +0800</pubDate>
+      <title>Posts</title>
+      <link>http://localhost:1313/post/</link>
+      <pubDate>Thu, 12 Sep 2019 15:21:31 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hugo%E5%8D%9A%E5%AE%A2/</guid>
-      <description>&lt;h1 id=&#34;你们好呀&#34;&gt;你们好呀&lt;/h1&gt;
-
-&lt;p&gt;嘛嘛，这次咱从hexo转移到了据说是这个世界上最快的博客hugo，这几个月里，真的发生很多让我痛苦和煎熬的事情，我实在是太菜了，学习进展很差。。为人处世也非常糟糕，甚至被。。。&lt;/p&gt;
-
-&lt;p&gt;但是前进的脚步不可以停下！接下来的时间，要学习的东西很多，不仅仅是代码，还有生活，加油啊！&lt;/p&gt;
-
-&lt;p&gt;下面是之前的hexo开博文哦&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      
+        <description></description>
+      
     </item>
     
   </channel>

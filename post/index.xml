@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Sep 2019 15:21:31 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>咱的第一篇Hugo博客</title>
+      <link>http://localhost:1313/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E5%B9%B4hugo%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 09 Sep 2019 16:01:23 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E5%B9%B4hugo%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;h1 id=&#34;你们好呀&#34;&gt;你们好呀&lt;/h1&gt;
+
+&lt;p&gt;这里曾经是一只家猫的后花园，现在住着一只非常非常努力的小野猫&lt;/p&gt;
+
+&lt;p&gt;他要学的东西有很多，包括代码外的许多东西，不努力的话，会被丢掉的&lt;/p&gt;
+
+&lt;h4 id=&#34;点击右下角的阅读全文可以看到家猫曾经的足迹-真的很羡慕那时候的猫猫呢&#34;&gt;点击右下角的阅读全文可以看到家猫曾经的足迹，真的很羡慕那时候的猫猫呢&lt;/h4&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何用Hugo搭博客</title>
+      <link>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Thu, 12 Sep 2019 15:21:31 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%8D%9A%E5%AE%A2/</guid>
+      <description>Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，</description>
+    </item>
+    
+    <item>
+      <title>java面向对象编程</title>
+      <link>http://localhost:1313/post/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/</guid>
+      <description>&lt;h3 id=&#34;java面向对象编程&#34;&gt;java面向对象编程&lt;/h3&gt;
+
+&lt;h4 id=&#34;前言&#34;&gt;前言&lt;/h4&gt;
+
+&lt;p&gt;java语言提供类、接口和继承等面向对象的特性，为了简单起见，只支持类之间的单继承，但支持接口之间的多继承，并支持类与接口之间的实现机制（关键字为implements）。Java语言全面支持动态绑定，而C++语言只对虚函数使用动态绑定。总之，Java语言是一个纯的面向对象程序设计语言。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
