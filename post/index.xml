@@ -6,17 +6,17 @@
     <description>Recent content in Posts on 一只猫的后花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 12 Sep 2019 15:21:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2019 20:07:10 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>咱的第一篇Hugo博客</title>
-      <link>http://localhost:1313/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E5%B9%B4hugo%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://localhost:1313/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hugo%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Mon, 09 Sep 2019 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E5%B9%B4hugo%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>http://localhost:1313/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hugo%E5%8D%9A%E5%AE%A2/</guid>
       <description>&lt;h1 id=&#34;你们好呀&#34;&gt;你们好呀&lt;/h1&gt;
 
 &lt;p&gt;这里曾经是一只家猫的后花园，现在住着一只非常非常努力的小野猫&lt;/p&gt;
@@ -24,6 +24,15 @@
 &lt;p&gt;他要学的东西有很多，包括代码外的许多东西，不努力的话，会被丢掉的&lt;/p&gt;
 
 &lt;h4 id=&#34;点击右下角的阅读全文可以看到家猫曾经的足迹-真的很羡慕那时候的猫猫呢&#34;&gt;点击右下角的阅读全文可以看到家猫曾经的足迹，真的很羡慕那时候的猫猫呢&lt;/h4&gt;</description>
+    </item>
+    
+    <item>
+      <title>Collection体系</title>
+      <link>http://localhost:1313/post/collection%E4%BD%93%E7%B3%BB/</link>
+      <pubDate>Wed, 25 Sep 2019 20:07:10 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/collection%E4%BD%93%E7%B3%BB/</guid>
+      <description>Collection体系 Collection是java中非常重要的一个接口。提供了多组实用的根接口 Collection最重要的两个东西，是L</description>
     </item>
     
     <item>

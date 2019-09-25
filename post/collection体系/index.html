@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>一只猫的后花园</title>
+  <title>Collection体系 - 一只猫的后花园</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="喵喵哲" />
-  <meta name="description" content="Hugo theme jane example site." />
+  <meta name="description" content="Collection体系 Collection是java中非常重要的一个接口。提供了多组实用的根接口 Collection最重要的两个东西，是L" />
+
   <meta name="keywords" content="Hugo, theme, jane" />
 
 
@@ -34,8 +35,7 @@
 <meta name="generator" content="Hugo 0.58.1" />
 
 
-<link rel="canonical" href="http://localhost:1313/" />
-<link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/index.xml%20http://localhost:1313/index.xml%7d" rel="alternate" type="application/rss+xml" title="一只猫的后花园" />
+<link rel="canonical" href="http://localhost:1313/post/collection%E4%BD%93%E7%B3%BB/" />
 
 
 
@@ -57,18 +57,26 @@
 
 
 
-<meta property="og:title" content="一只猫的后花园" />
-<meta property="og:description" content="Hugo theme jane example site." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/" />
+<meta property="og:title" content="Collection体系" />
+<meta property="og:description" content="Collection体系 Collection是java中非常重要的一个接口。提供了多组实用的根接口 Collection最重要的两个东西，是L" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/collection%E4%BD%93%E7%B3%BB/" />
+<meta property="article:published_time" content="2019-09-25T20:07:10+08:00" />
+<meta property="article:modified_time" content="2019-09-25T20:07:10+08:00" />
+<meta itemprop="name" content="Collection体系">
+<meta itemprop="description" content="Collection体系 Collection是java中非常重要的一个接口。提供了多组实用的根接口 Collection最重要的两个东西，是L">
 
-<meta property="og:updated_time" content="2019-09-25T20:07:10+08:00" />
-<meta itemprop="name" content="一只猫的后花园">
-<meta itemprop="description" content="Hugo theme jane example site.">
 
+<meta itemprop="datePublished" content="2019-09-25T20:07:10&#43;08:00" />
+<meta itemprop="dateModified" content="2019-09-25T20:07:10&#43;08:00" />
+<meta itemprop="wordCount" content="886">
+
+
+
+<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="一只猫的后花园"/>
-<meta name="twitter:description" content="Hugo theme jane example site."/>
+<meta name="twitter:title" content="Collection体系"/>
+<meta name="twitter:description" content="Collection体系 Collection是java中非常重要的一个接口。提供了多组实用的根接口 Collection最重要的两个东西，是L"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -228,7 +236,7 @@
   <ul id="menu" class="menu">
     
     
-        <li class="menu-item active">
+        <li class="menu-item">
         
           
           
@@ -309,163 +317,214 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-<section id="posts" class="posts">
-  
-  
+          <article class="post bg-white">
     
-  
-  
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
+    <header class="post-header">
+      <h1 class="post-title">Collection体系</h1>
       
-        <span class="post-pinned">
-          <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
-  width="32" height="32">
-  <path d="M682.666667 512V170.666667h42.666666V85.333333H298.666667v85.333334h42.666666v341.333333l-85.333333 85.333333v85.333334h221.866667v256h68.266666v-256H768v-85.333334l-85.333333-85.333333z"></path>
+      <div class="post-meta">
+        <time datetime="2019-09-25" class="post-time">
+          2019-09-25
+        </time>
+        
+        
+
+        
+        
+
+        
+        
+      </div>
+    </header>
+
+    
+    
+
+    
+    <div class="post-content">
+      
+
+<h2 id="collection体系">Collection体系</h2>
+
+<ul>
+<li>Collection是java中非常重要的一个接口。提供了多组实用的根接口</li>
+<li>Collection最重要的两个东西，是List/Set约定</li>
+<li>Collection体系提供的常用方法有：</li>
+<li>new: new ArrayList(Collection), new ArrayList()
+
+<ul>
+<li>R: size()/isEmpty()/contains()/for()/stream()</li>
+<li>C/U: add()/addAll()/retainAll()</li>
+<li>D: clear()/remove()/removeAll()</li>
+<li>emptySet() 返回一个方便的空集合</li>
+<li>synchronizedCollection 将一个集合变成线程安全的</li>
+<li>unmodifiableCollection:把一个集合变成不可变的</li>
+</ul></li>
+<li>一些Collection的实现
+
+<ul>
+<li>Queue/Deque</li>
+<li>LinkedList</li>
+<li>ConcurrentHashMap</li>
+<li>PriorityQueue</li>
+<li>Vector/Stack  都已经被抛弃</li>
+</ul></li>
+</ul>
+
+<h4 id="list">List</h4>
+
+<ul>
+<li>本质上是一个数组，是一个有序的集合，它拓展了Collection的一些东西，比如可以有get(int index)等方法</li>
+<li>最常用的是ArrayList</li>
+<li>问：List本质是一个数组，那么List怎么实现无限扩容的呢？
+
+<ul>
+<li>答：动态扩容，创建一个更大的空间，然后把原来的元素拷贝过去
+当旧的数组装不下时，就创建一个新的数据，容量是原来数组容量的1.5倍，再把原来数组的东西都拷贝过去</li>
+</ul></li>
+</ul>
+
+<h4 id="set">Set</h4>
+
+<ul>
+<li>Set没有顺序，不允许重复的元素
+
+<ul>
+<li>可以利用这个特性使用equals()判断去给List去重</li>
+</ul></li>
+<li>Java世界⾥里里第⼆二重要的约定：hashCode
+
+<ul>
+<li>同⼀一个对象必须始终返回相同的hashCode</li>
+<li>两个对象的equals返回true，必须返回相同的hashCode</li>
+<li>两个对象不不等，也可能返回相同的hashCode</li>
+</ul></li>
+<li>哈希算法
+
+<ul>
+<li>哈希就是⼀一个单向的映射</li>
+<li>为什么是单向的？因为对象出现的可能性比int多得多，所以可以从int映射到对象，不能从对象映射到int</li>
+</ul></li>
+<li>HashSet
+
+<ul>
+<li>是最常用，最高效的Set实现</li>
+<li>HashSet是无序的，有需要可以用LinkedHashSet</li>
+</ul></li>
+</ul>
+
+<h4 id="map">Map</h4>
+
+<ul>
+<li>Map没有继承Collection接口，Map提供key到value的映射</li>
+<li>常用的方法有：
+
+<ul>
+<li>C/U: put()/putAll()</li>
+<li>R: get()/size()  containsKey()/containsValue() keySet()/values()/entrySet()</li>
+<li>D: remove()/clear()</li>
+</ul></li>
+<li>HashMap
+
+<ul>
+<li>最常用，最高效的Map实现</li>
+<li>HashMap扩容<br /></li>
+<li>当原来的HashMap容量不足时，创建一个更大的HashMap,把原来的东西丢进去</li>
+<li>HashMap是线程不安全的</li>
+<li>Java7之后，HashMap在处理同一个哈希桶里碰撞的情况时，从链表变成了红黑树，以提高性能</li>
+</ul></li>
+<li>TreeSet/TreeMap
+
+<ul>
+<li>TreeSet是有序的  内部结构是红黑树（默认从小到大）  可以利用这个特性 进行排序</li>
+<li>TreeMap的key的Set就是一个TreeSet</li>
+</ul></li>
+</ul>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">喵喵哲</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2019-09-25
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+
+    
+    
+
+    <footer class="post-footer">
+      
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hugo%E5%8D%9A%E5%AE%A2/">
+            
+            <i class="iconfont">
+              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
 </svg>
 
-        </span>
-      
-      <a class="post-link" href="/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hugo%E5%8D%9A%E5%AE%A2/">咱的第一篇Hugo博客</a>
-    </h1>
+            </i>
+            <span class="prev-text nav-default">咱的第一篇Hugo博客</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%8D%9A%E5%AE%A2/">
+            <span class="next-text nav-default">如何用Hugo搭博客</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
     
-    <div class="post-meta">
-      <time datetime="2019-09-09" class="post-time">
-        2019-09-09
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <h1 id="你们好呀">你们好呀</h1>
-
-<p>这里曾经是一只家猫的后花园，现在住着一只非常非常努力的小野猫</p>
-
-<p>他要学的东西有很多，包括代码外的许多东西，不努力的话，会被丢掉的</p>
-
-<h4 id="点击右下角的阅读全文可以看到家猫曾经的足迹-真的很羡慕那时候的猫猫呢">点击右下角的阅读全文可以看到家猫曾经的足迹，真的很羡慕那时候的猫猫呢</h4>
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hugo%E5%8D%9A%E5%AE%A2/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
 
   
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/collection%E4%BD%93%E7%B3%BB/">Collection体系</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2019-09-25" class="post-time">
-        2019-09-25
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      Collection体系 Collection是java中非常重要的一个接口。提供了多组实用的根接口 Collection最重要的两个东西，是L
-    </div>
-    <div class="read-more">
-      <a href="/post/collection%E4%BD%93%E7%B3%BB/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%8D%9A%E5%AE%A2/">如何用Hugo搭博客</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2019-09-12" class="post-time">
-        2019-09-12
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%8D%9A%E5%AE%A2/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-</section>
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    <ul>
-      
-      <li  class="active" >
-        <a href="/">1</a>
-      </li>
-      
-      <li >
-        <a href="/page/2/">2</a>
-      </li>
-      
-    </ul>
-  </nav>
-
-  
-  
-
-
-
-
 
         </div>
       </div>
