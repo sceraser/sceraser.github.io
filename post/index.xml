@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 一只猫的后花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 25 Sep 2019 20:07:10 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2019 19:22:32 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,12 +27,31 @@
     </item>
     
     <item>
+      <title>Java异常体系</title>
+      <link>http://localhost:1313/post/java%E5%BC%82%E5%B8%B8%E4%BD%93%E7%B3%BB/</link>
+      <pubDate>Mon, 28 Oct 2019 19:22:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/java%E5%BC%82%E5%B8%B8%E4%BD%93%E7%B3%BB/</guid>
+      <description>&lt;h1 id=&#34;java异常体系&#34;&gt;&lt;strong&gt;Java异常体系&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;异常发生的原因有很多，通常包含以下几大类：
+- 用户输入了非法数据。
+- 要打开的文件不存在。
+- 网络通信时连接中断，或者JVM内存溢出。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Collection体系</title>
       <link>http://localhost:1313/post/collection%E4%BD%93%E7%B3%BB/</link>
       <pubDate>Wed, 25 Sep 2019 20:07:10 +0800</pubDate>
       
       <guid>http://localhost:1313/post/collection%E4%BD%93%E7%B3%BB/</guid>
-      <description>Collection体系 Collection是java中非常重要的一个接口。提供了多组实用的根接口 Collection最重要的两个东西，是L</description>
+      <description>&lt;h2 id=&#34;collection体系&#34;&gt;Collection体系&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Collection是java中非常重要的一个接口。提供了多组实用的根接口&lt;/li&gt;
+&lt;li&gt;Collection最重要的两个东西，是List/Set约定&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -41,7 +60,7 @@
       <pubDate>Thu, 12 Sep 2019 15:21:31 +0800</pubDate>
       
       <guid>http://localhost:1313/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%8D%9A%E5%AE%A2/</guid>
-      <description>Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，</description>
+      <description>&lt;p&gt;Hugo号称是世界上最快的博客生成器，它使用Go语言，速度碾压使用js的Hexo，越来越多人选择从Hexo迁移到Hugo，我也不例外。那么，如何用Hugo搭建一个个人博客呢？&lt;/p&gt;</description>
     </item>
     
     <item>
