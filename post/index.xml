@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 一只猫的后花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 28 Oct 2019 19:22:32 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2019 17:33:16 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -24,6 +24,15 @@
 &lt;p&gt;他要学的东西有很多，包括代码外的许多东西，不努力的话，会被丢掉的&lt;/p&gt;
 
 &lt;h4 id=&#34;点击右下角的阅读全文可以看到家猫曾经的足迹-真的很羡慕那时候的猫猫呢&#34;&gt;点击右下角的阅读全文可以看到家猫曾经的足迹，真的很羡慕那时候的猫猫呢&lt;/h4&gt;</description>
+    </item>
+    
+    <item>
+      <title>多线程</title>
+      <link>http://localhost:1313/post/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</link>
+      <pubDate>Sun, 01 Dec 2019 17:33:16 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</guid>
+      <description>&lt;p&gt;多线程是指运用硬件或者软件实现了多个线程并发执行的技术，由于可以在同一时间执行多个进程，所以可以大幅提高整体性能。即使对于单核处理器，一次只能运行一个线程，操作系统也可以快速的在不同线程间进程切换，由于CPU处理速度极快，可以给用户造成多个线程同时运行的假象，被称为软件多线程。&lt;/p&gt;</description>
     </item>
     
     <item>

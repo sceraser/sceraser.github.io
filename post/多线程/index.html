@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>一只猫的后花园</title>
+  <title>多线程 - 一只猫的后花园</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,7 +23,9 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="喵喵哲" />
-  <meta name="description" content="Hugo theme jane example site." />
+  <meta name="description" content="多线程是指运用硬件或者软件实现了多个线程并发执行的技术，由于可以在同一时间执行多个进程，所以可以大幅提高整体性能。即使对于单核处理器，一次只能运行一个线程，操作系统也可以快速的在不同线程间进程切换，由于CPU处理速度极快，可以给用户造成多个线程同时运行的假象，被称为软件多线程。
+" />
+
   <meta name="keywords" content="Hugo, theme, jane" />
 
 
@@ -34,8 +36,7 @@
 <meta name="generator" content="Hugo 0.58.1" />
 
 
-<link rel="canonical" href="http://localhost:1313/" />
-<link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/index.xml%20http://localhost:1313/index.xml%7d" rel="alternate" type="application/rss+xml" title="一只猫的后花园" />
+<link rel="canonical" href="http://localhost:1313/post/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" />
 
 
 
@@ -57,18 +58,26 @@
 
 
 
-<meta property="og:title" content="一只猫的后花园" />
-<meta property="og:description" content="Hugo theme jane example site." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/" />
+<meta property="og:title" content="多线程" />
+<meta property="og:description" content="多线程是指运用硬件或者软件实现了多个线程并发执行的技术，由于可以在同一时间执行多个进程，所以可以大幅提高整体性能。即使对于单核处理器，一次只能运行一个线程，操作系统也可以快速的在不同线程间进程切换，由于CPU处理速度极快，可以给用户造成多个线程同时运行的假象，被称为软件多线程。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" />
+<meta property="article:published_time" content="2019-12-01T17:33:16+08:00" />
+<meta property="article:modified_time" content="2019-12-01T17:33:16+08:00" />
+<meta itemprop="name" content="多线程">
+<meta itemprop="description" content="多线程是指运用硬件或者软件实现了多个线程并发执行的技术，由于可以在同一时间执行多个进程，所以可以大幅提高整体性能。即使对于单核处理器，一次只能运行一个线程，操作系统也可以快速的在不同线程间进程切换，由于CPU处理速度极快，可以给用户造成多个线程同时运行的假象，被称为软件多线程。">
 
-<meta property="og:updated_time" content="2019-12-01T17:33:16+08:00" />
-<meta itemprop="name" content="一只猫的后花园">
-<meta itemprop="description" content="Hugo theme jane example site.">
 
+<meta itemprop="datePublished" content="2019-12-01T17:33:16&#43;08:00" />
+<meta itemprop="dateModified" content="2019-12-01T17:33:16&#43;08:00" />
+<meta itemprop="wordCount" content="2806">
+
+
+
+<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="一只猫的后花园"/>
-<meta name="twitter:description" content="Hugo theme jane example site."/>
+<meta name="twitter:title" content="多线程"/>
+<meta name="twitter:description" content="多线程是指运用硬件或者软件实现了多个线程并发执行的技术，由于可以在同一时间执行多个进程，所以可以大幅提高整体性能。即使对于单核处理器，一次只能运行一个线程，操作系统也可以快速的在不同线程间进程切换，由于CPU处理速度极快，可以给用户造成多个线程同时运行的假象，被称为软件多线程。"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -228,7 +237,7 @@
   <ul id="menu" class="menu">
     
     
-        <li class="menu-item active">
+        <li class="menu-item">
         
           
           
@@ -309,168 +318,295 @@
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-<section id="posts" class="posts">
-  
-  
+          <article class="post bg-white">
     
-  
-  
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
+    <header class="post-header">
+      <h1 class="post-title">多线程</h1>
       
-        <span class="post-pinned">
-          <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
-  width="32" height="32">
-  <path d="M682.666667 512V170.666667h42.666666V85.333333H298.666667v85.333334h42.666666v341.333333l-85.333333 85.333333v85.333334h221.866667v256h68.266666v-256H768v-85.333334l-85.333333-85.333333z"></path>
+      <div class="post-meta">
+        <time datetime="2019-12-01" class="post-time">
+          2019-12-01
+        </time>
+        
+        
+
+        
+        
+
+        
+        
+      </div>
+    </header>
+
+    
+    
+
+    
+    <div class="post-content">
+      <p>多线程是指运用硬件或者软件实现了多个线程并发执行的技术，由于可以在同一时间执行多个进程，所以可以大幅提高整体性能。即使对于单核处理器，一次只能运行一个线程，操作系统也可以快速的在不同线程间进程切换，由于CPU处理速度极快，可以给用户造成多个线程同时运行的假象，被称为软件多线程。</p>
+
+<h1 id="为什么需要多线程"><strong>为什么需要多线程</strong></h1>
+
+<ul>
+<li><strong>CPU：这个世界慢！死！了！</strong>
+对于一颗2.6GHZ的CPU来说，每秒可以执行2.6*10^9个指令，每个指令只需0.38ns。以此为1S的基准的话，从磁盘读取1MB速度需要20ms(20个月)，数据传输到世界各地的城市平均需要150ms(12.5年)，CPU如果一直在等待内存IO和网络IO的响应，会严重浪费时间。</li>
+<li><strong>现代CPU都是多核心设计</strong>
+多核心天生带来了多线程的需求，如果不使用多线程，那么多个核心的性能将会被浪费。</li>
+</ul>
+
+<h1 id="多线程带来了什么问题-如何避免"><strong>多线程带来了什么问题，如何避免？</strong></h1>
+
+<ul>
+<li><p><strong>很难编写一个线程安全的程序</strong>多线程的运行是乱序的，在面对多个线程使用同一个共享资源时，会产生预期外的结果。</p>
+
+<pre><code class="language-java">public class AccumulateWrong {
+
+private static int count = 0;
+
+public static void main(String[] args) throws Exception {
+    Runnable task = new Runnable() {
+        public void run() {
+            for (int i = 0; i &lt; 1000000; ++i) {
+                count += 1;
+            }
+        }
+    };
+
+    Thread t1 = new Thread(task);
+    Thread t2 = new Thread(task);
+
+    t1.start();
+    t2.start();
+
+    t1.join();
+    t2.join();
+
+    System.out.println(&quot;count = &quot; + count);
+}
+}
+</code></pre></li>
+</ul>
+
+<p>上述代码由于<code>count += 1</code>不是一个原子操作，最终输出的结果不会是两百万。</p>
+
+<ul>
+<li><strong>死锁</strong>
+为了避免共享资源的乱序操作，Java提供synchronized方法，但是引入了新的问题，线程A拥有资源1需要资源2才可以继续运行，线程B拥有资源2需要资源1才可以继续运行，AB互不释放持有的锁，就造成了死锁。</li>
+<li><strong>多线程并不一定能大幅提升性能</strong>
+多线程并不能无限提升性能，正如“十个女人不能一个月生完孩子”，且由于对多线程和操作系统的理解不够深入，会带来额外的问题，甚至可能导致性能下降。</li>
+</ul>
+
+<h1 id="线程的属性-状态-生命周期详解"><strong>线程的属性、状态、生命周期详解</strong></h1>
+
+<p><strong>线程属性</strong></p>
+
+<ul>
+<li><p>线程优先级</p></li>
+
+<li><p>守护线程</p></li>
+
+<li><p>处理未捕获异常的处理器</p></li>
+</ul>
+
+<p><strong>线程生命周期和状态</strong></p>
+
+<p><img src="/image/img7.jpg" alt="" />
+Java线程具有五中基本状态</p>
+
+<ul>
+<li><p>新建状态（New）：当线程对象对创建后，即进入了新建状态，如：Thread t = new MyThread();</p></li>
+
+<li><p>就绪状态（Runnable）：当调用线程对象的start()方法（t.start();），线程即进入就绪状态。处于就绪状态的线程，只是说明此线程已经做好了准备，随时等待CPU调度执行，并不是说执行了t.start()此线程立即就会执行；</p></li>
+
+<li><p>运行状态（Running）：当CPU开始调度处于就绪状态的线程时，此时线程才得以真正执行，即进入到运行状态。注：就绪状态是进入到运行状态的唯一入口，也就是说，线程要想进入运行状态执行，首先必须处于就绪状态中；</p></li>
+
+<li><p>阻塞状态（Blocked）：处于运行状态中的线程由于某种原因，暂时放弃对CPU的使用权，停止执行，此时进入阻塞状态，直到其进入到就绪状态，才 有机会再次被CPU调用以进入到运行状态。根据阻塞产生的原因不同，阻塞状态又可以分为三种：</p>
+
+<ul>
+<li><p>等待阻塞：运行状态中的线程执行wait()方法，使本线程进入到等待阻塞状态；</p></li>
+
+<li><p>同步阻塞 &ndash; 线程在获取synchronized同步锁失败(因为锁被其它线程所占用)，它会进入同步阻塞状态；</p></li>
+
+<li><p>其他阻塞 &ndash; 通过调用线程的sleep()或join()或发出了I/O请求时，线程会进入到阻塞状态。当sleep()状态超时、join()等待线程终止或者超时、或者I/O处理完毕时，线程重新转入就绪状态。</p></li>
+</ul></li>
+
+<li><p>死亡状态（Dead）：线程执行完了或者因异常退出了run()方法，该线程结束生命周期。</p></li>
+</ul>
+
+<h1 id="什么是threadlocal"><strong>什么是ThreadLocal？</strong></h1>
+
+<p>ThreadLocal的作用是提供线程内的局部变量，这种变量在线程的生命周期内起作用，减少同一个线程内多个函数或者组件之间一些公共变量的传递的复杂度。</p>
+
+<h1 id="为什么需要线程池"><strong>为什么需要线程池？</strong></h1>
+
+<p>a.线程创建所需时间为T1，线程执行任务时间为T2，线程销毁时间为T3，而往往T1+T3&gt;T2。所以频繁创建线程会损坏而外的时间。
+b.如果有任务来了，再去创建线程的话效率比较低。
+c.线程池可以管理控制线程，线程是稀缺资源，如果无休止的创建会消耗系统资源，还会降低系统稳定性。使用线程池可以进行统一分配，方便调优和监控。
+d.线程池提供队列，存放缓冲等待执行任务。</p>
+
+<p>如果随意使用线程，对系统的性能反而有不利的影响，比如开启10000000个线程</p>
+
+<pre><code class="language-java"> for (int i = 0; i &lt;10000000; i++) {
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        Thread.sleep(10000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }).start();
+        }
+</code></pre>
+
+<p>大量的线程会抢占CPU资源，CPU不停地在各个线程上下文切换，反而没有时间去处理线程运行时该处理的任务，最终导致内存溢出异常。</p>
+
+<p>因此，为了避免频繁的创建和销毁线程，让创建的线程进行复用，就有了线程池的概念。
+线程池里会维护一部分活跃线程，如果有需要，就去线程池里取线程使用，用完即归还到线程池里，免去了创建和销毁线程的开销，且线程池也会线程的数量有一定的限制。</p>
+
+<pre><code class="language-java">ExecutorService executorService= Executors.newFixedThreadPool(10);
+        for (int i = 0; i &lt;10000000; i++) {
+           Thread t= new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        System.out.println(&quot;启动线程&quot;);
+                        Thread.sleep(10000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
+
+            executorService.submit(t);
+        }
+
+    }
+</code></pre>
+
+<p>如此处理后，将不会产生out of memory异常。因为每次将只有10个线程在启用，其余的放在线程池内的任务队列里面。</p>
+
+<h1 id="线程池的构造函数中的参数都是什么含义"><strong>线程池的构造函数中的参数都是什么含义？</strong></h1>
+
+<p>Java通过Executors提供四种线程池，分别为：</p>
+
+<ul>
+<li><strong>newCachedThreadPool</strong>:创建一个可缓存线程池，如果线程池长度超过处理需要，可灵活回收空闲线程，若无可回收，则新建线程。</li>
+<li><strong>newFixedThreadPool</strong> :创建一个定长线程池，可控制线程最大并发数，超出的线程会在队列中等待。</li>
+<li><strong>newScheduledThreadPool</strong> :创建一个定长线程池，支持定时及周期性任务执行。</li>
+<li><strong>newSingleThreadExecutor</strong> :创建一个单线程化的线程池，它只会用唯一的工作线程来执行任务，保证所有任务按照指定顺序(FIFO, LIFO, 优先级)执行。</li>
+</ul>
+
+<p><strong>参数：</strong></p>
+
+<ul>
+<li><p>corePoolSize:核心池大小</p></li>
+
+<li><p>maximumPoolSize:线程池最大线程数。</p></li>
+
+<li><p>keepAliveTime:表示线程没有任务执行时最多保持多久时间会终止。默认情况下，只有线程数大于核心线程corePoolSize时，该参数才会起作用。</p></li>
+
+<li><p>unit:参数keepAliveTime的时间单位</p></li>
+
+<li><p>workQueue:一个阻塞队列，用来存储等待执行的任务，有以下几种选择,ArrayBlockingQueue、LinkedBlockingQueue、SynchronousQueue.</p></li>
+
+<li><p>threadFactory:线程工厂，主要用来创建线程。</p></li>
+
+<li><p>handler:便是当拒绝处理任务时的策略，四种取值：</p></li>
+
+<li><p>ThreadPoolExecutor.AbortPolicy:丢弃任务并抛出RejectedExecutionException异常。</p></li>
+
+<li><p>ThreadPoolExecutor.DiscardPolicy:也是丢弃任务，但是不抛出异常。</p></li>
+
+<li><p>ThreadPoolExecutor.DiscardOldestPolicy:丢弃队列最前面的任务，然后重新尝试执行任务(重复此过程)</p></li>
+
+<li><p>ThreadPoolExecutor.CallerRunsPolicy:由点用线程处理该任务。</p></li>
+</ul>
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">喵喵哲</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2019-12-01
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+
+    
+    
+
+    <footer class="post-footer">
+      
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hugo%E5%8D%9A%E5%AE%A2/">
+            
+            <i class="iconfont">
+              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
 </svg>
 
-        </span>
-      
-      <a class="post-link" href="/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hugo%E5%8D%9A%E5%AE%A2/">咱的第一篇Hugo博客</a>
-    </h1>
+            </i>
+            <span class="prev-text nav-default">咱的第一篇Hugo博客</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/post/java%E5%BC%82%E5%B8%B8%E4%BD%93%E7%B3%BB/">
+            <span class="next-text nav-default">Java异常体系</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
     
-    <div class="post-meta">
-      <time datetime="2019-09-09" class="post-time">
-        2019-09-09
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <h1 id="你们好呀">你们好呀</h1>
-
-<p>这里曾经是一只家猫的后花园，现在住着一只非常非常努力的小野猫</p>
-
-<p>他要学的东西有很多，包括代码外的许多东西，不努力的话，会被丢掉的</p>
-
-<h4 id="点击右下角的阅读全文可以看到家猫曾经的足迹-真的很羡慕那时候的猫猫呢">点击右下角的阅读全文可以看到家猫曾经的足迹，真的很羡慕那时候的猫猫呢</h4>
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%92%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hugo%E5%8D%9A%E5%AE%A2/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
 
   
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/%E5%A4%9A%E7%BA%BF%E7%A8%8B/">多线程</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2019-12-01" class="post-time">
-        2019-12-01
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <p>多线程是指运用硬件或者软件实现了多个线程并发执行的技术，由于可以在同一时间执行多个进程，所以可以大幅提高整体性能。即使对于单核处理器，一次只能运行一个线程，操作系统也可以快速的在不同线程间进程切换，由于CPU处理速度极快，可以给用户造成多个线程同时运行的假象，被称为软件多线程。</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/java%E5%BC%82%E5%B8%B8%E4%BD%93%E7%B3%BB/">Java异常体系</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2019-10-28" class="post-time">
-        2019-10-28
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      <h1 id="java异常体系"><strong>Java异常体系</strong></h1>
-
-<p>异常发生的原因有很多，通常包含以下几大类：
-- 用户输入了非法数据。
-- 要打开的文件不存在。
-- 网络通信时连接中断，或者JVM内存溢出。</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/java%E5%BC%82%E5%B8%B8%E4%BD%93%E7%B3%BB/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-</section>
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    <ul>
-      
-      <li  class="active" >
-        <a href="/">1</a>
-      </li>
-      
-      <li >
-        <a href="/page/2/">2</a>
-      </li>
-      
-    </ul>
-  </nav>
-
-  
-  
-
-
-
-
 
         </div>
       </div>
