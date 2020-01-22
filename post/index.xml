@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 一只猫的后花园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 01 Dec 2019 17:33:16 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2020 17:42:09 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -24,6 +24,22 @@
 &lt;p&gt;他要学的东西有很多，包括代码外的许多东西，不努力的话，会被丢掉的&lt;/p&gt;
 
 &lt;h4 id=&#34;点击右下角的阅读全文可以看到家猫曾经的足迹-真的很羡慕那时候的猫猫呢&#34;&gt;点击右下角的阅读全文可以看到家猫曾经的足迹，真的很羡慕那时候的猫猫呢&lt;/h4&gt;</description>
+    </item>
+    
+    <item>
+      <title>获取中兴F412/F460/F612/F660超级用户密码</title>
+      <link>http://localhost:1313/post/%E8%8E%B7%E5%8F%96%E4%B8%AD%E5%85%B4%E5%85%89%E7%8C%ABf612%E8%B6%85%E7%BA%A7%E7%94%A8%E6%88%B7%E8%B4%A6%E5%8F%B7%E5%92%8C%E5%AF%86%E7%A0%81/</link>
+      <pubDate>Wed, 22 Jan 2020 17:42:09 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E8%8E%B7%E5%8F%96%E4%B8%AD%E5%85%B4%E5%85%89%E7%8C%ABf612%E8%B6%85%E7%BA%A7%E7%94%A8%E6%88%B7%E8%B4%A6%E5%8F%B7%E5%92%8C%E5%AF%86%E7%A0%81/</guid>
+      <description>&lt;p&gt;众所周知，万恶的电线光猫不允许后台管理，使用路由器背面记录的账号密码进行登录的时候，你只能进入普通用户界面，基本啥都干不了。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;默认普通用户账号和密码
+User:useradmin 
+Password:admin
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/img8.png&#34; alt=&#34;普通用户后台&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
